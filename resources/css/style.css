@@ -3,14 +3,11 @@
   text-align: center;
   }
 
-.background-image {
+.hero {
   background-image: url("../images/the-flatiron-building.png");
 }
 
-.vertical-menu {
-  list-style-type: none;
-  padding: 0;
-  <!-- margin: 0; -->
+.vertical-nav {
   font-size: 18px;
   color: White;
 }
@@ -31,15 +28,15 @@ h3 {
   font-weight: bold;
 }
 
+.hero h3 {
+  color: White;
+}
+
 p {
   font-size: 14px;
 }
 
-.company-section {
-  color: white;
-}
-
-.footer {
+.footer p {
   font-size: 11px;
   color: White;
   background-color: Dimgray;

@@ -5,50 +5,80 @@
     <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
   </head>
   <body>
-    <div class="background-image">
+    <div class="hero">
       <h1>Broadway Design</h1>
       <!-- Vertical menu links to navigate pages in the site -->
-      <ul class="vertical-menu">
-        <li>Home</li>
-        <li><a href="./about.html">About</a></li>
-        <li><a href="./work.html">Work</a></li>
-        <li><a href="./team.html">Team</a></li>
-        <li><a href="./contact.html">Contact</a></li>
-      </ul>
+      <p>
+        <a class="vertical-nav" href="#">Home</a>
+      </p>
+      <p>
+        <a class="vertical-nav" href="#process">Process</a>
+      </p>
+      <p>
+        <a class="vertical-nav" href="#work">Work</a>
+      </p>
+      <p>
+        <a class="vertical-nav" href="#team">Team</a>
+      </p>
+      <p>
+        <a class="vertical-nav" href="#contact">Contact</a>
+      </p>
     </div>
 
-    <h2>Our Process</h2>
-    <!-- process step Identify -->
-    <img src="./resources/images/identify.svg" alt="identify symbol">
-    <h3>Identify</h3>
-    <p>We focus on the most important details.</p>
+    <div id="process">
+      <h2>Our Process</h2>
 
-    <!-- process step Understand -->
-    <img src="./resources/images/understand.svg" alt="understand symbol">
-    <h3>Understand</h3>
-    <p>We study our projects inside and out.</p>
+      <!-- process step Identify -->
+      <div class="supporting">
+        <img src="./resources/images/identify.svg" alt="identify symbol">
+        <h3>Identify</h3>
+        <p>We focus on the most important details.</p>
+    </div>
 
-    <!-- process step Execute -->
-    <img src="./resources/images/execute.svg" alt="execute symbol">
-    <h3>Execute</h3>
-    <p>We put everything we have into our work.</p>
+      <!-- process step Understand -->
+      <div class="supporting">
+        <img src="./resources/images/understand.svg" alt="understand symbol">
+        <h3>Understand</h3>
+        <p>We study our projects inside and out.</p>
+      </div>
 
-    <!-- Company section -->
-      <h3 class="company-section background-image">Designed in New York</h3>
+      <!-- process step Execute -->
+      <div class="supporting">
+        <img src="./resources/images/execute.svg" alt="execute symbol">
+        <h3>Execute</h3>
+        <p>We put everything we have into our work.</p>
+      </div>
+    </div>
 
+    <!-- Mini hero section -->
+    <div class="hero">
+      <h3>Designed in New York</h3>
+    </div>
+
+    <!-- Work section -->
+    <div class="supporting" id="work">
       <h3>Portfolio</h3>
       <p>Coming Soon</p>
+    </div>
 
+    <!-- Team section -->
+    <div class="supporting" id="team">
       <h3>Team</h3>
       <p>We're Hiring!</p>
+    </div>
 
+    <!-- Contact section -->
+    <div class="supporting" id="contact">
       <h3>Contact</h3>
       <p>Phone: (555)-555-5555</p>
       <p>E-mail: test@example.com</p>
       <p>Twitter: @test</p>
     </div>
 
-    <p class="footer">&copy; Broadway 2016 Home About Work Team Contact</p>
+    <!-- Page footer -->
+    <div class="footer">
+      <p>&copy; Broadway 2016 Home About Work Team Contact</p>
+    </div>
 
   </body>
 </html>
